@@ -1,0 +1,230 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.welcome {
+    height: 180px;
+    width: 480px;
+    border: 8px solid crimson;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 2px 2px 2px purple;
+    color: maroon;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 450px;
+    background-color: white;
+    box-shadow: 8px 8px purple;
+    line-height: 50px;
+}
+
+.hr {
+    margin-top: 5px;
+    height: 2px;
+    background-color: white;
+}
+
+.hr1 {
+    margin-top: 5px;
+    height: 2px;
+    background-color: white;
+}
+
+.parents {
+    height: 750px;
+    width: 100%;
+    border: 10px solid green;
+    position: relative;
+    top: 10px;
+}
+
+.child {
+
+    height: 250px;
+    width: 250px;
+    border: 8px solid red;
+    border-radius: 15px;
+    box-shadow: 8px 8px purple;
+    background-color: white;
+}
+
+.child1 {
+    float: left;
+}
+
+.child2 {
+    float: right;
+    position: relative;
+    right: 50px;
+}
+
+.child3 {
+    float: left;
+    clear: both;
+    position: relative;
+    top: 200px;
+}
+
+.child4 {
+    float: right;
+    position: relative;
+    top: 200px;
+    right: 50px;
+}
+
+.parents2 {
+    height: 720px;
+    width: 800px;
+    border: 8px solid purple;
+    position: relative;
+    top: 35px;
+    background-color: green;
+    margin-left: 330px;
+}
+
+.box {
+    height: 300px;
+    width: 380px;
+    background-color: rgb(247, 232, 118);
+    position: relative;
+    top: 30px;
+}
+
+.wlcom {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.box1 {
+    float: left;
+    position: relative;
+    left: 5px;
+}
+
+.box2 {
+    float: right;
+    position: relative;
+    right: 5px;
+}
+
+.box3 {
+    position: absolute;
+    width: 790px;
+    top: 390px;
+    clear: none;
+    left: 5px;
+}
+
+.fixbox {
+    height: 100px;
+    width: 500px;
+    border: 8px solid red;
+    background-color: rgb(105, 241, 8);
+    border-radius: 15px;
+    position: fixed;
+    top: 600px;
+    left: 500px;
+    box-shadow: 8px 8px purple;
+}
+
+.text {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 45px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px purple;
+}
+
+img {
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 200px;
+    width: 220px;
+}
+
+.TEXT {
+    line-height: normal;
+    text-align: left;
+}
+
+.input {
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px purple;
+}
+
+.INPUT {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+.submit {
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px purple;
+}
+
+button {
+    border-radius: 30px;
+    background-color: crimson;
+}
+
+.detail {
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+.details {
+    font-style: italic;
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.FIXEDBAR {
+    display: flex;
+    font-size: 22PX;
+    color: maroon;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.OFFER {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 10PX;
+}
+
+.discount {
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 80PX;
+
+}
